@@ -57,7 +57,7 @@ a { text-decoration: none; }
   background: var(--orange);
   border-radius: 50%;
   color: var(--white);
-  font-family: var(--font-italic);
+  font-family: var(--font);
   font-size: 10.5px;
   font-style: italic;
   font-weight: 700;
@@ -78,17 +78,21 @@ a { text-decoration: none; }
 }
 
 .hero h1 {
-  font-family: var(--font-heading);
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 700;
   color: var(--dark);
   margin-bottom: 20px;
 }
 
+.h1-inter {
+  font-family: var(--font-heading);
+}
+
 .hl-italic {
   background: var(--orange);
   color: var(--white);
-  font-family: var(--font-italic);
+  font-family: var(--font);
   font-style: italic;
   font-weight: 400;
   padding: 1px 4px;
@@ -103,10 +107,11 @@ a { text-decoration: none; }
 }
 
 .mark {
-  background: var(--orange);
-  color: var(--white);
-  padding: 1px 3px;
-  border-radius: 2px;
+  background-image: url("data:image/svg+xml,%3Csvg width='240' height='27' viewBox='0 0 240 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3 0H240L237.061 26.0908H0L3 0Z' fill='%23FF6647'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  background-color: transparent;
+  color: var(--beige);
+  padding: 1px 4px;
 }
 
 /* ════════════════════════════════
