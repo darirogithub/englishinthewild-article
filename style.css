@@ -10,6 +10,7 @@
   --white:      #FFFFFF;
   --font:       'DM Sans', sans-serif;
   --font-italic: 'Open Sans', sans-serif;
+  --font-heading: 'Inter', sans-serif;
   --radius:     16px;
 }
 
@@ -77,6 +78,7 @@ a { text-decoration: none; }
 }
 
 .hero h1 {
+  font-family: var(--font-heading);
   font-size: 26px;
   font-weight: 700;
   color: var(--dark);
