@@ -56,7 +56,9 @@ a { text-decoration: none; }
   background: var(--orange);
   border-radius: 50%;
   color: var(--white);
+  font-family: var(--font-italic);
   font-size: 10.5px;
+  font-style: italic;
   font-weight: 700;
   text-align: center;
   display: flex;
@@ -85,13 +87,16 @@ a { text-decoration: none; }
 .hl-italic {
   background: var(--orange);
   color: var(--white);
+  font-family: var(--font-italic);
   font-style: italic;
   padding: 1px 4px;
   border-radius: 2px;
 }
 
 .hero-body {
-  font-size: 15px;
+  font-family: var(--font-italic);
+  font-size: 14.5px;
+  font-style: italic;
   color: var(--dark);
 }
 
