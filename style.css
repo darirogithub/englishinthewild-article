@@ -89,6 +89,7 @@ a { text-decoration: none; }
   color: var(--white);
   font-family: var(--font-italic);
   font-style: italic;
+  font-weight: 400;
   padding: 1px 4px;
   border-radius: 2px;
 }
