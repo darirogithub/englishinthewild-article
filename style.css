@@ -107,11 +107,10 @@ a { text-decoration: none; }
 }
 
 .mark {
-  background-image: url("data:image/svg+xml,%3Csvg width='240' height='27' viewBox='0 0 240 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3 0H240L237.061 26.0908H0L3 0Z' fill='%23FF6647'/%3E%3C/svg%3E");
-  background-size: 100% 100%;
-  background-color: transparent;
+  background: var(--orange);
+  clip-path: polygon(3px 0%, 100% 0%, calc(100% - 3px) 100%, 0% 100%);
   color: var(--beige);
-  padding: 1px 4px;
+  padding: 2px 5px;
 }
 
 /* ════════════════════════════════
