@@ -41,17 +41,17 @@ a { text-decoration: none; }
 ════════════════════════════════ */
 .hero {
   position: relative;
-  background: var(--blue-dark);
+  background: var(--blue-light);
   padding: 24px 20px 32px;
-  color: var(--white);
+  color: var(--dark);
 }
 
 .badge-coach {
   position: absolute;
-  top: 20px;
-  right: 16px;
-  width: 82px;
-  height: 82px;
+  top: 45px;
+  right: 40px;
+  width: 85px;
+  height: 85px;
   background: var(--orange);
   border-radius: 50%;
   color: var(--white);
@@ -68,14 +68,14 @@ a { text-decoration: none; }
 .eyebrow {
   font-size: 13px;
   font-style: italic;
-  color: rgba(255,255,255,0.75);
+  color: rgba(35,61,76,0.65);
   margin-bottom: 12px;
 }
 
 .hero h1 {
   font-size: 26px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--dark);
   margin-bottom: 20px;
   padding-right: 88px;
 }
@@ -90,7 +90,7 @@ a { text-decoration: none; }
 
 .hero-body {
   font-size: 15px;
-  color: rgba(255,255,255,0.92);
+  color: var(--dark);
 }
 
 .mark {
